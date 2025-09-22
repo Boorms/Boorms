@@ -1,6 +1,6 @@
 import re
 
-max_len = 20  # počet znakov na blok
+max_len = 20 
 
 def rozdelenie1(text, max_len: int):
     
@@ -66,3 +66,4 @@ print("")
 result2 = rozdelenie1(text2, 20)
 for line in result2:
     print(line)
+
